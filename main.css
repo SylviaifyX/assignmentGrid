@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(195, 195, 247);
+}
+.container{
+    display: grid;
+    grid-template-areas: 
+    'a a b c'
+    'd e e c';
+    width: 70%;
+    margin: 130px auto;
+    gap: 10px;
+    height: 300px;
+}
+main div{
+    padding: 30px;
+    text-align: center;
+}
+.grid-a{
+    background-color: brown;
+    grid-area: a;
+}
+.grid-b{
+    background-color: blue;
+    grid-area: b;
+}
+.grid-c{
+    background-color: aquamarine;
+    grid-area: c;
+}
+.grid-d{
+    background-color: chocolate;
+    grid-area: d;
+}
+.grid-e{
+    background-color: darkslategray;
+    grid-area: e;
+}
